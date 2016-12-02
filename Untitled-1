@@ -1,0 +1,18 @@
+var a = 5;
+var b = 10;
+var c = a + b ;
+a = 10 ; => a + b asignarlo a c
+
+console.log(c); => 20 
+
+observable=> representa la idea de una coleccion de valores o eventos futuros
+observer=> es un conjunto de llamadas que sabe "escuchar a los observables"
+subscriptions=> representan la ejecucion de un observable (cancelacion)
+operators=> funciones puras que permiten un "estilo de programacion funcional"
+                tratan collections operaciones maps, filters, concats
+                                                flatmap, ... 
+subjects=> equivalente a "EventEmiter" fusionar valores, eventos de varios
+                        observables 
+schedulers=> despachador centralizado, "control de concurrencias" 
+                coordinacion cuando sucede algun "computo"
+                    => setTimeuot, requestAnumationFrame
