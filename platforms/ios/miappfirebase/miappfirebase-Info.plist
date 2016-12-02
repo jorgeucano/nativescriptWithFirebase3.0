@@ -43,6 +43,19 @@
       <string>UIInterfaceOrientationLandscapeLeft</string>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>mlxqAH_E6RyTLx73pXYtGx2Z</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.897546565787-uu0unni5ifqs1tcqh9om0ro0ur8bh63m</string>
+        </array>
+      </dict>
+    </array>
     <key>CFBundleIdentifier</key>
     <string>com.jorgeucano.miappfirebase</string>
   </dict>

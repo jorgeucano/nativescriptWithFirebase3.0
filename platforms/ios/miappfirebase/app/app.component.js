@@ -29,13 +29,6 @@ var AppComponent = (function () {
         }
     };
     AppComponent.prototype.ngOnInit = function () {
-        firebase.login({
-            type: firebase.LoginType.GOOGLE
-        }).then(function (result) {
-            console.log(JSON.stringify(result));
-        }, function (errorMessage) {
-            console.log(errorMessage);
-        });
     };
     AppComponent.prototype.siPasaAlgoEjecutate = function (result) {
         var that = this;

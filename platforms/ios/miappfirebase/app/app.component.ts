@@ -37,17 +37,7 @@ export class AppComponent {
     }
 
     ngOnInit(){
-        firebase.login({
-            type: firebase.LoginType.GOOGLE
-        }).then(
-            (result) => {
-                console.log(JSON.stringify(result));
-            },
-            (errorMessage) =>{
-                console.log(errorMessage);
-            }
-        );
-        
+       
     }
 
 
